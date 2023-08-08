@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{{ super() }}
+<script src = '{{ url_for("static", filename = "js/tree.js") }}' defer> </script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"> </script>
+<script src = '{{ url_for("static", filename = "treeJS/jstree.js") }}'> </script>
+<link rel = 'stylesheet' href = '{{ url_for("static", filename = "treeJS/style.css") }}'> </link>
+{% endblock %}
+
+{% block content %}
+<div class = 'content'>
+    <h2> 
+        Welcome to 
+        <select id = 'jsonData'>
+            <option value = 'G'> Glaucocystophyceae </option>
+            <option value = 'R'> Rhodophyta </option>
+            <option value = 'V'> Viridiplantae </option>
+        </select>
+    </h2>
+    <div class = 'treeDisplay'>
+
+    </div>
+</div>
+{% endblock %}

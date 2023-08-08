@@ -1,0 +1,70 @@
+{
+  "38254 [class] Glaucocystophyceae": {
+    "33678 [family] Cyanophoraceae": {
+      "2761 [genus] Cyanophora": {
+        "2762 [species] Cyanophora paradoxa": {
+        },
+        "1489435 [species] Cyanophora tetracyanea": {
+        },
+        "1489483 [species] Cyanophora biloba": {
+        },
+        "1522366 [species] Cyanophora cuspidata": {
+        },
+        "1522367 [species] Cyanophora kugrensii": {
+        },
+        "1522369 [species] Cyanophora sudae": {
+        }
+      }
+    },
+    "38255 [order] Glaucocystales": {
+      "38257 [family] Glaucocystaceae": {
+        "38258 [genus] Glaucocystis": {
+          "38271 [species] Glaucocystis nostochinearum": {
+          },
+          "1789783 [species] Glaucocystis oocystiformis": {
+          },
+          "1789786 [species] Glaucocystis bhattacharyae": {
+          },
+          "1789787 [species] Glaucocystis geitleri": {
+          },
+          "1789788 [species] Glaucocystis incrassata": {
+          },
+          "1789789 [species] Glaucocystis miyajii": {
+          },
+          "2044895 [species] Glaucocystis cf. nostochinearum": {
+          },
+          "2623858 [no rank] unclassified Glaucocystis": {
+            "1489484 [species] Glaucocystis sp. ARP-2014": {
+            },
+            "1802912 [species] Glaucocystis sp. BC-2016": {
+            },
+            "2023628 [species] Glaucocystis sp. BBH": {
+            }
+          }
+        }
+      }
+    },
+    "38262 [order] Gloeochaetales": {
+      "38266 [family] Gloeochaetaceae": {
+        "38268 [genus] Gloeochaete": {
+          "38269 [species] Gloeochaete wittrockiana": {
+          }
+        }
+      }
+    },
+    "77921 [genus] Cyanoptyche": {
+      "77922 [species] Cyanoptyche gloeocystis": {
+      }
+    },
+    "321835 [no rank] environmental samples": {
+      "167164 [species] uncultured glaucocystophycean": {
+      },
+      "1074203 [species] uncultured Cyanophora": {
+      }
+    },
+    "1955570 [no rank] unclassified Glaucocystophyceae": {
+      "1955571 [species] Glaucocystophyceae sp.": {
+      }
+    }
+  }
+}
