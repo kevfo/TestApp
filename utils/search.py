@@ -10,7 +10,7 @@ def find_queries(query):
     '''
     with open('data/pickled_taxid', 'rb') as taxid:
         data = pickle.load(taxid)
-        result = data.get(query, None)
+        result = data.get(query.lower(), None)
         if not result:
             return ''
         return {'taxid' : result[0], 'rna' : result[1], 'ill' : result[2]}
