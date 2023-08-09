@@ -6,7 +6,7 @@
 {% block header %}
 <div class = "topnav">
     <a href = "{{ url_for('species_tree') }}"> Species Trees </a>
-    <a href = "#"> Search  </a>
+    <a href = "{{ url_for('search') }}"> Search  </a>
 </div>
 {% endblock %}
 
@@ -16,6 +16,6 @@
 
 {% block footer %}
 <div class = "footer">
-    <p> Footer </p>
+    <p> Visit our <a> GitHub </a> </p>
 </div>
 {% endblock %}

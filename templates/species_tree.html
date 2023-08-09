@@ -2,22 +2,24 @@
 
 {% block head %}
 {{ super() }}
+<link rel = 'stylesheet' href = '{{ url_for("static", filename = "css/treeDisplay.css") }}'> </link>
+
+<script src = '{{ url_for("static", filename = "treeJS/tree.js") }}'> </script>
+<script src = '{{ url_for("static", filename = "js/treeData.js") }}'> </script>
 <script src = '{{ url_for("static", filename = "js/tree.js") }}' defer> </script>
-<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"> </script>
-<script src = '{{ url_for("static", filename = "treeJS/jstree.js") }}'> </script>
-<link rel = 'stylesheet' href = '{{ url_for("static", filename = "treeJS/style.css") }}'> </link>
 {% endblock %}
 
 {% block content %}
 <div class = 'content'>
-    <h2> 
-        Welcome to 
+    <h1> 
+        Visualize Tree for: 
         <select id = 'jsonData'>
+            <option value = '' selected> Select a genus </option>
             <option value = 'G'> Glaucocystophyceae </option>
             <option value = 'R'> Rhodophyta </option>
             <option value = 'V'> Viridiplantae </option>
         </select>
-    </h2>
+    </h1>
     <div class = 'treeDisplay'>
 
     </div>

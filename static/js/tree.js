@@ -5,10 +5,15 @@ const TREE_DISPLAY = document.querySelector('.treeDisplay');
 const TREE_SELECTOR = document.querySelector('#jsonData');
 
 const updateTree = () => {
+    if (TREE_DISPLAY.innerHTML.length !== 0) {
+        TREE_DISPLAY.innerHTML = ''
+    }
     let value = TREE_SELECTOR.value;
+
     switch(value) {
         case 'G':
-            console.log("You picked G")
+            var tree = new Tree(TREE_DISPLAY)
+            tree.json(G_DATA)
             break;
         case 'R':
             console.log("You picked R")
