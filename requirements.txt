@@ -1,4 +1,4 @@
 Flask
-Jinaj2
+Jinja2
 Werkzeug
 Gunicorn
